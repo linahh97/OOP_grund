@@ -11,7 +11,6 @@ namespace OOP_grund
             myCircle.getArea();
             myCircle.getPerimeter();
             Console.WriteLine("");
-            Console.WriteLine("");
            
             Circle myCircle2 = new Circle();
             myCircle2.Radius = 6;
