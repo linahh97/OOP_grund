@@ -4,14 +4,17 @@ using System.Text;
 
 namespace OOP_grund
 {
-    public class Circle
+    class Circle
     {
         public float pi = 3.1415f;
         public int Radius;
+        public float area;
 
-        public void getArea()
+        public float getArea()
         {
-            Console.WriteLine("Cirkelns area: " + Radius * Radius * pi);
+            area = Radius * Radius * pi;
+            Console.WriteLine("Cirkelns area: {0}", area);
+            return area;
         }
         public void getPerimeter()
         {
